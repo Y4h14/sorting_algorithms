@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
+
 /**
  * struct listint_s - Doubly linked list node
  *
@@ -18,15 +19,15 @@ typedef struct listint_s
 	struct listint_s *next;
 } listint_t;
 
-/*printing fucntions*/
+/*printing functions*/
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 
-/*sorting algorithims*/
+/*sorting algorithms*/
 void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void swap(listint_t **list, listint_t *node1, listint_t *node2);
-
+void selection_sort(int *array, size_t size);
 
 
 #endif /*_SORT_H_*/
