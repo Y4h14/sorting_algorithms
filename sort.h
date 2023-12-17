@@ -28,6 +28,8 @@ void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void swap(listint_t **list, listint_t *node1, listint_t *node2);
 void selection_sort(int *array, size_t size);
-
+void quick_sort(int *array, size_t size);
+unsigned int lomuto_partition(int *array, int low, int high, size_t size);
+void recur_part(int *arr, int lo, int hi, size_t size);
 
 #endif /*_SORT_H_*/
