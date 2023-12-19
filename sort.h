@@ -32,5 +32,6 @@ void quick_sort(int *array, size_t size);
 unsigned int lomuto_partition(int *array, int low, int high, size_t size);
 void recur_part(int *arr, int lo, int hi, size_t size);
 void merge_sort(int *array, size_t size);
-void merge(int *array, size_t size, int *left, size_t left_size, int *right, size_t right_size);
+void merge(int *array, size_t size, int *left,
+size_t left_size, int *right, size_t right_size);
 #endif /*_SORT_H_*/
