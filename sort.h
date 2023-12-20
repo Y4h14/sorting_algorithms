@@ -34,4 +34,7 @@ void recur_part(int *arr, int lo, int hi, size_t size);
 void merge_sort(int *array, size_t size);
 void merge(int *array, size_t size, int *left,
 size_t left_size, int *right, size_t right_size);
+void maxHeapEnforcer(int *a, int trg, size_t heapS, size_t arrS);
+void heapSwap(int *array, int first, int second, size_t size);
+void heap_sort(int *array, size_t size);
 #endif /*_SORT_H_*/
